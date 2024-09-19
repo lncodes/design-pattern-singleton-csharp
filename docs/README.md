@@ -7,11 +7,11 @@
 
 <h1 align="center">Singleton Design Pattern in C#</h1>
 <p align="center">
-  <a href="{{REPOSITORY_URL}}/actions/workflows/build-and-test-dotnet.yml">
-      <img src="{{REPOSITORY_URL}}/actions/workflows/build-and-test-dotnet.yml/badge.svg" alt="Build Status">
+  <a href="https://github.com/lncodes/singleton-design-pattern-csharp/actions/workflows/build-and-test-dotnet.yml">
+      <img src="https://github.com/lncodes/singleton-design-pattern-csharp/actions/workflows/build-and-test-dotnet.yml/badge.svg" alt="Build Status">
   </a>
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_{{REPOSITORY_NAME}}">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_{{REPOSITORY_NAME}}&metric=alert_status" alt="Quality Gate Status">
+  <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
+      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=alert_status" alt="Quality Gate Status">
   </a>
 </p>
 
@@ -47,7 +47,7 @@ To set up this C# project on your local machine, ensure that the system requirem
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone https://github.com/lncodes/{{REPOSITORY_NAME}}.git
+      git clone https://github.com/lncodes/singleton-design-pattern-csharp.git
       ```
 
     - Download as ZIP
@@ -59,10 +59,10 @@ To set up this C# project on your local machine, ensure that the system requirem
     Navigate to the project directory containing the source files by executing the following command:
 
     ```bash
-    cd {{REPOSITORY_NAME}}/src
+    cd singleton-design-pattern-csharp/src
     ```
 
-    If you encounter any issues, please ensure you are in the correct parent directory that contains the {{REPOSITORY_NAME}} folder.
+    If you encounter any issues, please ensure you are in the correct parent directory that contains the singleton-design-pattern-csharp folder.
     
 3. Restore Dependencies
 
@@ -109,7 +109,7 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_URL}}/discussions). You can also leave comments on the [Singleton Design Pattern - Last Night Codes](https://lncodes.com/singleton-design-pattern/) blog post for a more in-depth discussion on this project’s topics.
+If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum](https://github.com/lncodes/singleton-design-pattern-csharp/discussions). You can also leave comments on the [Singleton Design Pattern - Last Night Codes](https://lncodes.com/singleton-design-pattern/) blog post for a more in-depth discussion on this project’s topics.
 
 <h2 id="license"> 📋 License</h2>
 
