@@ -1,14 +1,14 @@
 ﻿namespace Lncodes.DesignPattern.Singleton;
 
-public sealed class ClassicThreadSafeLazySingleton
+public abstract class LazyClassicThreadSafeGenericSingleton<T> where T : class, new()
 {
-    private static volatile ClassicThreadSafeLazySingleton _instance = null;
+    private static volatile T _instance = null;
 
     private static readonly object _instanceLock = new();
 
-    private ClassicThreadSafeLazySingleton() { }
+    protected LazyClassicThreadSafeGenericSingleton() { }
 
-    public static ClassicThreadSafeLazySingleton GetInstance()
+    public static T GetInstance()
     {
         if (_instance is null)
             lock (_instanceLock)
