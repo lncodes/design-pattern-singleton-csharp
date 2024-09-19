@@ -2,11 +2,11 @@
 
 namespace Lncodes.DesignPattern.Singleton;
 
-public abstract class ModernThreadSafeGenericLazySingleton<T> where T : class, new()
+public abstract class LazyModernThreadSafeGenericSingleton<T> where T : class, new()
 {
     private static readonly Lazy<T> _lazyInstance = new(() => new T());
 
-    protected ModernThreadSafeGenericLazySingleton() { }
+    protected LazyModernThreadSafeGenericSingleton() { }
 
     public static T GetInstance() =>
         _lazyInstance.Value;
