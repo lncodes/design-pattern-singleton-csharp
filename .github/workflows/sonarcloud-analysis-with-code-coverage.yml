@@ -51,7 +51,7 @@ jobs:
         run: dotnet build ./src --configuration Release
 
       - name: Run Tests with Coverage
-        run: dotnet test ./tests --no-build --configuration Release --collect:"XPlat Code Coverage"
+        run: dotnet test ./tests --no-build --configuration Release --logger "trx;LogFileName=test_results.trx" --collect:"XPlat Code Coverage"
 
       - name: List Coverage Files
         run: |
