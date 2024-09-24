@@ -44,7 +44,7 @@ jobs:
             /o:"lncodes" \
             /d:sonar.host.url="https://sonarcloud.io" \
             /d:sonar.login="${{ secrets.SONAR_TOKEN }}" \
-            /d:sonar.cs.opencover.reportsPaths="./tests/**/coverage.cobertura.xml"
+            /d:sonar.cs.opencover.reportsPaths="tests/**/coverage.cobertura.xml"
 
       - name: Build Project for Analysis
         run: dotnet build ./src --configuration Release
@@ -52,7 +52,7 @@ jobs:
       - name: Run Tests with Coverage
         run: dotnet test ./tests --no-build --configuration Release --collect:"XPlat Code Coverage"
 
-       - name: List Test Results
+      - name: List Test Results
         run: |
           echo "Listing Test Results:"
           ls -R ./tests/TestResults
