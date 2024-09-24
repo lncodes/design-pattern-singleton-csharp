@@ -43,7 +43,7 @@ jobs:
             /k:"lncodes_singleton-design-pattern-csharp" \
             /o:"lncodes" \
             /d:sonar.host.url="https://sonarcloud.io" \
-            /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+            /d:sonar.login="${{ secrets.SONAR_TOKEN }}" \
             /d:sonar.cs.vstest.reportsPaths="**/*.trx" \
             /d:sonar.coverageReportPaths="**/*.coverage.xml"
 
