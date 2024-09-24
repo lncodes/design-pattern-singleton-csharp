@@ -13,6 +13,9 @@
   <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
       <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=alert_status" alt="Quality Gate Status">
   </a>
+  <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
+      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=coverage" alt="Code Coverage Status">
+  </a>
 </p>
 
 <p align="center">
