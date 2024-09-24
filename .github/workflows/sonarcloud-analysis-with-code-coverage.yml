@@ -49,7 +49,7 @@ jobs:
         run: dotnet build ./src --configuration Release
 
       - name: Run Tests with Coverage
-        run: dotnet test ./tests --no-build --collect:"XPlat Code Coverage"
+        run: dotnet test ./tests --no-build --configuration Release --collect:"XPlat Code Coverage"
 
       - name: End SonarCloud Analysis
         run: |

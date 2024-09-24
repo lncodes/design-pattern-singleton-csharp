@@ -34,37 +34,37 @@ To set up this C# project on your local machine, ensure that the system requirem
 
 <h3>System Requirements</h3>
 
-- .NET SDK: Version 8 or later ([Download .NET](https://dotnet.microsoft.com/en-us/download)).
+- **.NET SDK:** Version 8 or later ([Download .NET](https://dotnet.microsoft.com/en-us/download)).
 
-- Operating System: Windows, macOS, or Linux.
+- **Operating System:** Windows, macOS, or Linux.
 
 <h3>Steps to Install</h3>
 
-1. Clone or Download the Project
+1. **Clone or Download the Project**
 
-    - Clone the Repository
+    - **Clone the Repository**
     
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone https://github.com/lncodes/singleton-design-pattern-csharp.git
+      git clone {{REPOSITORY_URL}}.git
       ```
 
-    - Download as ZIP
+    - **Download as ZIP**
 
       If Git is not available, you can download the project as a ZIP file from the GitHub repository by clicking the “Code” button and selecting the “Download ZIP" option.
 
-2. Navigate to the Project Directory
+2. **Navigate to the Project Directory**
 
     Navigate to the project directory containing the source files by executing the following command:
 
     ```bash
-    cd singleton-design-pattern-csharp/src
+    cd {{REPOSITORY_NAME}}/src
     ```
 
-    If you encounter any issues, please ensure you are in the correct parent directory that contains the singleton-design-pattern-csharp folder.
+    > **Note:** Make sure you're in the correct parent directory where the `{{REPOSITORY_NAME}}` folder is located.
     
-3. Restore Dependencies
+3. **Restore Dependencies**
 
     Install all required packages and libraries by executing the following command:
 
@@ -78,21 +78,21 @@ To set up this C# project on your local machine, ensure that the system requirem
 
 To use the Singleton design pattern from this repository in your project, follow these steps:
 
-1. Run Unit Tests (Optional but Recommended)
+1. **Run Unit Tests (Optional but Recommended)**
 
     To ensure that the implementation is functioning correctly, it is recommended to run the unit tests provided in the repository. To run the tests, open a command line or terminal in the project directory and use the following command:
 
-      ```bash 
+      ```bash
       dotnet test
       ```
 
     This command will run all unit tests in the project and show which tests passed or failed.
 
-2. Select and Copy Singleton File
+2. **Select and Copy Singleton File**
 
     Browse the repository to locate the Singleton design pattern that aligns with your project’s requirements. For example, if `EagerSingleton.cs` seems like a suitable choice, copy this file from the repository. Ensure the selected Singleton design pattern file meets your project’s requirements for efficient resource management and proper functionality within the application.
 
-3. Use the Singleton File in the Project
+3. **Use the Singleton File in the Project**
 
     Paste the copied Singleton file into your project’s solution. To use the Singleton in your application, access the instance as follows:
 
