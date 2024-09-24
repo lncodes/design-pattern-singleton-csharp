@@ -52,11 +52,6 @@ jobs:
       - name: Run Tests with Coverage
         run: dotnet test ./tests --no-build --configuration Release --collect:"XPlat Code Coverage"
 
-      - name: List Test Results
-        run: |
-          echo "Listing Test Results:"
-          ls -R ./tests/TestResults
-          
       - name: End SonarCloud Analysis
         run: |
           ~/.sonar/scanner/dotnet-sonarscanner end \
