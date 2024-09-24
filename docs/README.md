@@ -13,6 +13,9 @@
   <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
       <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=alert_status" alt="Quality Gate Status">
   </a>
+  <a href="https://sonarcloud.io/dashboard?id=lncodes_singleton-design-pattern-csharp">
+      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_singleton-design-pattern-csharp&metric=coverage" alt="Code Coverage Status">
+  </a>
 </p>
 
 <p align="center">
@@ -47,7 +50,7 @@ To set up this C# project on your local machine, ensure that the system requirem
       Use Git to create a local copy by executing the following command:
 
       ```bash
-      git clone {{REPOSITORY_URL}}.git
+      git clone https://github.com/lncodes/singleton-design-pattern-csharp.git
       ```
 
     - **Download as ZIP**
@@ -59,10 +62,10 @@ To set up this C# project on your local machine, ensure that the system requirem
     Navigate to the project directory containing the source files by executing the following command:
 
     ```bash
-    cd {{REPOSITORY_NAME}}/src
+    cd singleton-design-pattern-csharp/src
     ```
 
-    > **Note:** Make sure you're in the correct parent directory where the `{{REPOSITORY_NAME}}` folder is located.
+    > **Note:** Make sure you're in the correct parent directory where the `singleton-design-pattern-csharp` folder is located.
     
 3. **Restore Dependencies**
 
