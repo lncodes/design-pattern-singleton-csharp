@@ -82,7 +82,7 @@ To use the Singleton design pattern from this repository in your project, follow
 
     To ensure that the implementation is functioning correctly, it is recommended to run the unit tests provided in the repository. To run the tests, open a command line or terminal in the project directory and use the following command:
 
-      ```bash 
+      ```bash
       dotnet test
       ```
 
